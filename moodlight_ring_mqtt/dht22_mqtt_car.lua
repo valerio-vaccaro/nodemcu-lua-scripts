@@ -1,10 +1,10 @@
-WIFISSID={"GS1Lab", "MilkyWay_2"}
-WIFIPASS={"11111222223333444455556666","11111222223333444455556666"}
+WIFISSID={"xxx", "yyyy"}
+WIFIPASS={"xxx","yyyy"}
 MQTTIP={"10.0.1.64","192.168.1.100"}
 MQTTPORT={1884,1884}
 
 wifi.setmode(wifi.STATION)
---wifi.sta.config("GS1Lab","11111222223333444455556666")
+--wifi.sta.config("xxxx","yyyyy")
 wifi.sta.config(WIFISSID[1], WIFIPASS[1])
 print(wifi.sta.getip())
 
