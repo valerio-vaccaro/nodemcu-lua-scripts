@@ -1,3 +1,7 @@
+# DEPRECATED
+Due to the porting of ESP8266 in the Arduino enviroment I decide to move the code on the new platform improving in the same time the communication protocols. The PigProof platform is coming!!!
+https://github.com/valerio-vaccaro/PigProof.com
+
 # nodemcu-lua-scripts
 A collection of Lua scripts for [NodeMCU](http://nodemcu.com/index_en.html) firmware.
 
